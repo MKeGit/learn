@@ -20,7 +20,7 @@ ssh azureuser@<public-ip-address>
 > [!NOTE]
 > We don't need a password because we generated an SSH key pair as part of the VM creation. The first time you shell into the VM, you receive a prompt regarding the authenticity of the host.
 >
-> This is because we are attempting to access an IP address directly instead of through a host name. Answering **yes** saveS the IP address as a valid host for connection and allows the connection to proceed.
+> This is because we are attempting to access an IP address directly instead of through a host name. Answering **yes** saves the IP address as a valid host for connection and allows the connection to proceed.
 
 ```output
 The authenticity of host '40.83.165.85 (40.83.165.85)' can't be established.
